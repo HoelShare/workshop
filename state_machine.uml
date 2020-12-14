@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_transition</OriginalElement>
+  <nodes>
+    <node x="12.0" y="265.0">5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine</node>
+    <node x="268.0" y="385.0">5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_state</node>
+    <node x="328.0" y="-15.0">5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.user</node>
+    <node x="260.0" y="105.0">5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_history</node>
+    <node x="-32.0" y="385.0">5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_transition</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_transition" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_state">
+      <point x="112.0" y="0.0" />
+      <point x="-92.0" y="0.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_transition" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_history" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine">
+      <point x="-100.0" y="0.0" />
+      <point x="80.0" y="120.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_history" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_state">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_history" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.user">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_state" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine">
+      <point x="-80.0" y="-15.0" />
+      <point x="280.0" y="280.0" />
+      <point x="68.0" y="0.0" />
+    </edge>
+    <edge source="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine" target="5db5f3a5-3fc3-4b62-aabb-5d5f46bcec8a.TABLE:shopware.state_machine_state">
+      <point x="40.0" y="-15.0" />
+      <point x="120.0" y="200.0" />
+      <point x="320.0" y="200.0" />
+      <point x="-40.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.9999999999999997" x="406.66666666666686" y="870.5000000000002" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
